@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409592054221",
+    "project_id": "language-translator-f33fc",
+    "storage_bucket": "language-translator-f33fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409592054221:android:791cd4fc7d0dfb1a228484",
+        "android_client_info": {
+          "package_name": "com.srishti.android.languagetranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409592054221-onidmkd7megau5pdthbn7vdfhvg2s0sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMMjGCMvREeThpVsO6dhIRxi2y11FuvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409592054221-onidmkd7megau5pdthbn7vdfhvg2s0sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
