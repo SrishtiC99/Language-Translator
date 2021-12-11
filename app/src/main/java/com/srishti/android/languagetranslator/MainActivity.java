@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageView micIV;
     private MaterialButton translateButton;
     private TextView translatedTV;
-    String[] fromLanguages = {"From", "English"};
-    String[] toLanguages = {"To", "Hindi"};
+    String[] fromLanguages = {"From", "English", "Hindi"};
+    String[] toLanguages = {"To", "Hindi", "English"};
     private static final int REQUEST_PERMISSION_CODE = 1;
     int languageCode, fromLanguageCode, toLanguageCode = 0;
     @Override
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter toAdapter = new ArrayAdapter(this, R.layout.spinner_item, toLanguages);
         toAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-        toSpinner.setAdapter(fromAdapter);
+        toSpinner.setAdapter(toAdapter);
 
         translateButton.setOnClickListener(new View.OnClickListener() {
             @Override
